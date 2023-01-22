@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham-htf-book');
+@import url('https://fonts.cdnfonts.com/css/gotham-bold');
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+html {
+    scroll-behavior: smooth;
+    background: #000000;   
+}
+body{    
+    width: 1920px;
+    height: 3211px;
+    left: 0px;
+    top: 0px;
+    overflow-y: scroll;    
+    background: #000000;    
+    overflow-x: hidden;  
+}
+
+body::-webkit-scrollbar {
+    width: 6px;    
+}
+
+body::-webkit-scrollbar-track {
+    background: #ed145c5b;
+    padding: 2px;
+    border-radius: 20px;    
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #ED145B;
+    border-radius: 20px;
+}
+
+/*Inicio da Navbar*/
+.header {
+position: absolute;
+position: fixed;
+width: 1909px;
+height: 50px;
+left: 0px;
+top: 0px;
+background-color: #151819;
+padding: 20px 10px;
+}
+
+
+
+
+.header a.logo {
+    position: absolute;
+    width: 158.73px;
+    height: 45px;
+    left: 319px;
+    top: 24px;        
+}
+
+
+
+.header a.ocurso{
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 695px;
+    top: 36px;    
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;
+    text-decoration:none;
+}
+.header a.ocurso:hover{
+    color: #ED145B;;
+}
+
+.header a.matriz{
+    position: absolute;
+    width: 182px;
+    height: 20px;
+    left: 870px;
+    top: 36px;    
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;       
+    color: #91A3AD;
+    text-decoration:none;
+}
+
+.header a.matriz:hover{
+    color: #ED145B;;
+}
+
+.header a.turmas{    
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 1146px;
+    top: 36px;    
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;
+    text-decoration:none;
+}
+
+.header a.turmas:hover{
+    color: #ED145B;;
+}
+
+
+
+.header button.inscreva-se {   
+    width: 90px;
+    height: 13px;
+    left: 1440px;
+    top: 39px;       
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.05em;    
+    color: #FFFFFF;
+}
+
+
+.header button.btn-inscreva{
+position: absolute;
+width: 150px;
+height: 40px;
+left: 1450px;
+top: 25px;
+background: #ED145B;
+border: 2px solid #ED145B;
+cursor: pointer;
+transition: box-shadow .2s ease,background-color .2s ease;
+transition-duration: 0.2s, 0.2s;
+transition-timing-function: ease, ease;
+transition-delay: 0s, 0s;
+transition-property: box-shadow, background-color;
+}
+
+button.btn-inscreva:hover{
+    box-shadow: 0px 2px 18px 0px #e01358;
+}
+
+/*Fim da Navbar*/
+
+/*Inicio da Header */
+
+.bg-header{    
+    width: 1920px;
+    height: 1088px;
+    left: 0px;
+    top: 68px;    
+    background: url(header.png);
+}
+
+.h1-intro{
+position: absolute;
+width: 837px;
+height: 70px;
+left: 541px;
+top: 421px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+text-transform: uppercase;
+color: #91A3AD;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.h2-intro{
+position: absolute;
+width: 1190px;
+height: 50px;
+left: 365px;
+top: 501px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+text-transform: uppercase;
+color: #91A3AD;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*Botão de Inscreva-se*/
+
+.btn-intro-l{
+  
+width: 90px;
+height: 13px;
+left: 915px;
+top: 626px;
+
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 13px;
+letter-spacing: 0.05em;
+color: #ED145B;
+}
+
+.btn-intro{
+box-sizing: border-box;
+position: absolute;
+width: 180px;
+height: 40px;
+left: 870px;
+top: 642px;
+border: 2px solid #ED145B;
+background-color: Transparent;
+cursor: pointer;
+transition: all .4s ease;
+}
+
+.btn-intro:hover{
+    background-color:#ED145B ;
+  color: #000000;
+}
+.clicker{
+position: absolute;
+width: 78px;
+height: 76px;
+left: 916px;
+top: 845px;
+cursor: pointer;
+}
+
+.scroll-p{
+position: absolute;
+width: 78px;
+height: 9px;
+left: 916px;
+top: 834px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 11px;
+text-align: center;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+/*Setas para baixo*/
+
+.linha1{
+position: absolute;
+width: 30px;
+height: 0px;
+left: 950px;
+top: 894.82px;
+border: 1px solid #ED145B;
+transform: rotate(-45deg);
+}
+
+.linha2{
+    position: absolute;
+    width: 30px;
+    height: 0px;
+    left: 928px;
+    top: 894.82px;    
+    border: 1px solid #ED145B;
+    transform: rotate(-135deg);    
+}
+
+/*Fim da Header*/
+
+/*Inicio da parte de O curso*/
+
+.ocursonav{
+    position: absolute;
+    width: 29.44px;
+    height: 0px;
+    left: 930.60px;
+    top: 815px;  
+}
+
+.h1-ocurso{
+position: absolute;
+width: 276px;
+height: 54px;
+left: 360px;
+top: 1072px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 50px;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+.p-ocurso{
+    position: absolute;
+width: 502px;
+height: 408px;
+left: 360px;
+top: 1200px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #91A3AD;
+}
+
+.linha-vert{
+position: absolute;
+width: 341px;
+height: 0px;
+left: 785px;
+top: 1335px;
+border: 1px solid #616D72;
+transform: rotate(90deg);
+}
+
+.h6-ocurso{
+    position: absolute;
+    width: 268px;
+    height: 20px;
+    left: 1033px;
+    top: 1121px;
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ED145B;
+}
+
+.p2-ocurso{
+    position: absolute;
+width: 458px;
+height: 408px;
+left: 1072px;
+top: 1200px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #616D72;
+}
+
+.p2-ocurso2{
+position: absolute;
+width: 458px;
+height: 408px;
+left: 1072px;
+top: 1347px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #616D72;
+
+}
+
+.linha-hori1{
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 1033px;
+    top: 1360px;
+    border: 1px solid #616D72;
+}
+
+.linha-hori2{
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: 1033px;
+    top: 1214px;
+    border: 1px solid #616D72;
+}
+
+/*Fim da parte de O curso */
+
+/*Inicio da parte de Matriz */
+
+.h1-matriz{
+position: absolute;
+width: 523px;
+height: 54px;
+left: 480px;
+top: 1716px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 50px;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+.matriznav{
+    position: absolute;
+width: 523px;
+height: 54px;
+left: 480px;
+top: 1580px;
+}
+
+.p-matriz{
+position: absolute;
+width: 73.01px;
+height: 0px;
+left: 480px;
+top: 1820px;
+border: 1px solid #616D72;
+}
+
+.h3-matriz{
+position: absolute;
+width: 523px;
+height: 35px;
+left: 568px;
+top: 1790px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-transform: uppercase;
+color: #616D72;
+}
+
+/*Inicio da Estrutura de Matriz 1° ANO - 2022 */
+
+.matrizln{
+    position: absolute;
+    width: 20.83px;
+    height: 0px;
+    left: 912.67px;
+    top: 214px;
+    border: 2px solid #ED145B;
+    cursor: pointer;
+}
+.matrizln2{
+    position: absolute;
+width: 20.83px;
+height: 0px;
+left: 912.5px;
+top: 214px;
+border: 2px solid #ED145B;
+cursor: pointer;
+}
+
+.matrizc{
+box-sizing: border-box;
+position: absolute;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+left: 900px;
+top: 190px;
+border: 2px solid #ED145B;
+cursor: pointer;
+}
+
+
+
+
+
+
+/*Fim da Estrutura de Matriz 1° ANO - 2022 */
+
+/*Inicio da Estrutura de Matriz 2° ANO - 2023 */
+
+.matrizln3{
+    position: absolute;
+width: 20.83px;
+height: 0px;
+left: 912.5px;
+top: 68px;
+border: 2px solid #ED145B;
+cursor: pointer;
+}
+
+.matrizln4{
+    position: absolute;
+width: 20.83px;
+height: 0px;
+left: 912.5px;
+top: 68px;
+border: 2px solid #ED145B;
+cursor: pointer;
+}
+
+.matrizc2{    
+box-sizing: border-box;
+position: absolute;
+width: 50px;
+height: 50px;
+left: 900px;
+top: 45px;
+border-radius: 50%;
+border: 2px solid #ED145B;
+}
+
+
+
+/*Fim da Estrutura de Matriz 2° ANO - 2023 */
+
+
+/*Inicio da parte das turmas */
+
+.turmas{
+    width: 960px;
+height: 478px;
+left: 480px;
+top: 2540px;
+}
+
+.h1-turmas{
+    position: absolute;
+width: 350px;
+height: 54px;
+left: 785px;
+top: 2540px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 50px;
+text-align: center;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+.p-turmas{
+    position: absolute;
+width: 40px;
+height: 4px;
+left: 941px;
+top: 2635px;
+background: #ED145B;
+}
+
+.tl-turmas{
+    width: 887px;
+height: 16px;
+left: 523px;
+top: 2717px;
+}
+
+/*Cabeçalho */
+
+.turmas-campus{
+    position: absolute;
+width: 100px;
+height: 16px;
+left: 527px;
+top: 2710px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+.turmas-duracao{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 710px;
+    top: 2710px;    
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;    
+}
+
+.turmas-dias{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 910px;
+    top: 2710px;
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;    
+}
+
+.turmas-horario{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 1106px;
+    top: 2710px;
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;       
+}
+
+.turmas-mensalidade{
+    position: absolute;
+    width: 150px;
+    height: 16px;
+    left: 1263px;
+    top: 2709px;
+    font-family: 'Gotham HTF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;
+}
+
+/*Aclimação */
+
+.turmas-aclimacao{
+    position: absolute;
+width: 100px;
+height: 16px;
+left: 528px;
+top: 2785px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #ED145B;
+}
+
+.turmas-2acli{
+    position: absolute;
+    width: 176px;
+    height: 16px;
+    left: 670px;
+    top: 2795px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;    
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #91A3AD;
+}
+
+.turmas-3acli{
+    position: absolute;
+    width: 213px;
+    height: 72px;
+    left: 854px;
+    top: 2769px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #91A3AD;
+}
+
+.turmas-hacli{
+    position: absolute;
+    width: 107px;
+    height: 72px;
+    left: 1105px;
+    top: 2769px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #91A3AD;    
+}
+
+.turmas-rsacli{
+    position: absolute;
+    width: 150px;
+    height: 16px;
+    left: 1262px;
+    top: 2793px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;    
+}
+
+/*Vila Olimpia*/
+
+
+
+.turmas-vila{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 528px;
+    top: 2855px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ED145B;
+}
+
+.turmas-2vila{
+    position: absolute;
+width: 176px;
+height: 16px;
+left: 670px;
+top: 2866px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #91A3AD;
+}
+
+.turmas-3vila{
+    position: absolute;
+width: 213px;
+height: 72px;
+left: 854px;
+top: 2840px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+color: #91A3AD;
+}
+
+.turmas-hvila{
+position: absolute;
+width: 107px;
+height: 72px;
+left: 1105px;
+top: 2840px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+color: #91A3AD;
+}
+
+.turmas-rsvila{
+ position: absolute;
+width: 150px;
+height: 16px;
+left: 1263px;
+top: 2867px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #91A3AD;
+}
+
+/*Estrutura*/
+
+/*Inicio das colunas*/
+.turmas-colum{
+position: absolute;
+width: 213px;
+height: 0px;
+left: 969px;
+top: 2796px;
+border: 1px solid #32383B;
+transform: rotate(-90deg);
+}
+.turmas-colum2{
+    position: absolute;
+    width: 213px;
+    height: 0px;
+    left: 1128px;
+    top: 2796px;
+    border: 1px solid #32383B;
+    transform: rotate(-90deg);
+}
+
+.turmas-colum3{
+    position: absolute;
+    width: 213px;
+    height: 0px;
+    left: 735px;
+    top: 2796px;
+    border: 1px solid #32383B;
+    transform: rotate(-90deg);
+}
+.turmas-colum4{
+    position: absolute;
+    width: 213px;
+    height: 0px;
+    left: 567px;
+    top: 2796px;
+    border: 1px solid #32383B;
+    transform: rotate(-90deg);
+}
+/*Fim das colunas*/
+
+/*Inicio das linhas horizontais*/
+.turmas-ln{
+    position: absolute;
+    width: 958px;
+    height: 0px;
+    left: 480px;
+    top: 2761px;
+    border: 1px solid #32383B;
+}
+.turmas-ln2{
+    position: absolute;
+    width: 958px;
+    height: 0px;
+    left: 480px;
+    top: 2833px;
+    border: 1px solid #32383B;
+}
+/*Fim das linhas horizontais*/
+
+/*Inicio das bordas*/
+.turmas-bd{
+    box-sizing: border-box;
+    position: absolute;
+    width: 960px;
+    height: 216px;
+    left: 480px;
+    top: 2689px;   
+    border: 1px solid #32383B;
+}
+/*Fim das bordas*/
+.turmas-planos{
+position: absolute;
+width: 239px;
+height: 16px;
+left: 1199px;
+top: 2913px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 145%;
+letter-spacing: 0.05em;
+color: #616D72;
+}
+/*Fim da parte das turmas */
+
+/*Inicio Botão Inscreva-se */
+.btnti-l{
+position: absolute;
+width: 90px;
+height: 13px;
+left: 916px;
+top: 2992px;
+font-family: 'Gotham HTF';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 13px;
+letter-spacing: 0.05em;
+color: #ED145B;
+}
+
+.btnti{
+box-sizing: border-box;
+position: absolute;
+width: 180px;
+height: 40px;
+left: 871px;
+top: 2978px;
+border: 2px solid #ED145B;
+background-color: Transparent;
+transition: background-color .4s ease,color .4s ease;
+cursor: pointer;
+}
+.btnti:hover{
+background-color:#ED145B ;
+  color: #000000;
+  transition: all .4s ease;
+}
+/*Fim Botão Inscreva-se */
+
+#wrapper {
+height: 390px;
+
+position: absolute;
+left: 960px;
+top: 1913px;	
+transform: translate(-50%, 0);
+background-color: transparent;
+width: 962px;
+padding: 30px;
+color: #91A3AD;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 35px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+}	 
+
+.matriz-acc{
+    color: #ED145B;
+}
+
+.bd1{
+border: 1px #91A3AD;
+box-sizing: border-box;
+padding-left: 10px;
+padding-top: 20px;
+}
+.bd1:hover{
+    border: 1px solid #ED145B;
+    color: #ED145B;
+}
+
+.bd2{
+    border: 1px solid #91A3AD;
+    box-sizing: border-box;
+    }
+    .bd2:hover{
+        border: 1px solid #ED145B;
+    }
+.matriz-acc2 {
+    color: #616D72;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;    
+    margin-top: 14px;
+    z-index: 2;
+    
+  }
+  p, ul li i:before, ul li i:after {
+    transition: all 0.5s ease-in-out;
+  }   
+
+
+
+ i{
+	position: absolute;
+	transform: translate(-6px, 0);
+	margin-top: 9px;
+	right: 0;
+ }
+ 	
+input[type=checkbox] {
+position: absolute;
+cursor: pointer;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0;}
+:checked ~ p {
+	margin-top: 0;
+	max-height: 0;
+	opacity: 0;
+	transform: translate(0, 50%);
+         }
+
+:checked ~ .matrizln4 {
+	margin-top: 9px;
+	height: 9px;
+	transform: translate(2px, 0) rotate(90deg);
+}
+:checked ~ .matrizln2 {
+	margin-top: 9px;
+	height: 9px;
+	transform: translate(-2px, 0) rotate(90deg);
+}
+li {
+    list-style-type: none;
+}
+
